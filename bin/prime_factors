@@ -5,3 +5,6 @@ require 'prime_factors'
 app = PrimeFactors::Application.new(STDOUT)
 app.start
 
+number = gets.chomp
+app.generate(number)
+
